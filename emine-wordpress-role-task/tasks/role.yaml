@@ -4,5 +4,5 @@
   become: yes
   become_method: sudo
   roles:
-    - user.yaml
-    - wordpress_ubuntu.yaml
+    - users.yaml
+    - wordpress.yaml
