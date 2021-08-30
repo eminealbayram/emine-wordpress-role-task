@@ -4,5 +4,4 @@
   become: yes
   become_method: sudo
   roles:
-    - users.yaml
-    - wordpress.yaml
+    - emine-wordpress-role-task
