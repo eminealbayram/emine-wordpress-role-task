@@ -1,0 +1,8 @@
+---
+- name: execute role for wordpress and users in devops group
+  hosts: all
+  become: yes
+  become_method: sudo
+  roles:
+    - user.yaml
+    - wordpress_ubuntu.yaml
