@@ -3,5 +3,7 @@
   hosts: all
   become: yes
   become_method: sudo
+  collections:
+    - geerlingguy.php_roles
   roles:
     - emine-wordpress-role-task
